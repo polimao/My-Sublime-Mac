@@ -1,0 +1,137 @@
+{
+    //如果为真，当一个文档块，一个@tag行后按Tab键（如@param ， @return ）
+    //将缩进的描述。如果你正在写一个很长的描述，这是非常有用
+    //并希望文本的块保持一致。
+    "jsdocs_deep_indent": true,
+
+    //如果为真，然后按Enter ，而在双斜线注释（像这样）
+    //会自动添加两条斜线到下一行，以及
+    "jsdocs_extend_double_slash": true,
+
+    //后领先的添加空格数*
+    "jsdocs_indentation_spaces": 1,
+
+    //空格数后的主导每个第一线下加*位于行
+    //段落。这仅与自动换行使用。例如，值
+    // 3可能是这样的：
+    //
+    // / **
+    // * DUIS SED arcu非得力士eleifend ullamcorper QUIS非ERAT 。 Curabitur
+    // * metus ELIT ， ultrices等tristique一个， blandit在胡斯托。
+    // * @参数{ string}里富Lorem存有悲坐阿梅德。
+    // * @参数{ }数条Nullam燕雀feugiat的Pretium 。 Quisque
+    // * consectetur ， risus欧盟pellentesque tincidunt ，法存有imperdiet
+    // *马萨，坐阿梅德adipiscing悲。
+    // *返回{ [类型] }
+    // * /
+    "jsdocs_indentation_spaces_same_para": 1,
+
+    //字样下面是否@tags应该对齐。
+    //可能的值是'无'，'浅'，'深'
+    //为了向下兼容，假的就等于'不' ，真正等同于“浅”
+    //
+    // '浅'的标签后，将只对准的第一句话。例如：
+    // @参数{ } MyCustomClass myVariable的DESC1
+    // @返回{ }字符串富DESC2
+    // @属性{ }数blahblah desc3
+
+    //'深'将对准标签，如每个组件：
+    // @参数{ } MyCustomClass myVariable的DESC1
+    // @返回{ }字符串富DESC2
+    // @属性{ }数blahblah desc3
+    "jsdocs_align_tags": "deep",
+
+    //它应该被添加到每个块的任何额外的样板标签。应该是一个字符串数组。
+    //注意，这当文档块被打开，直接前一功能只适用。$ ：
+    //选项卡点可以通过使用片段语法，如添加{ 1 ：默认文字}
+    "jsdocs_extra_tags": ["@author limao {{date}}"],
+
+    //如果额外的标记进行了定义，在默认情况下他们去说明书和参数/返回标记之间。如果设置为
+    //真，多余的标签被放置在最末尾。
+    "jsdocs_extra_tags_go_after": false,
+
+    //贴图确定变量的值，应匈牙利命名法（或类似）在使用
+    "jsdocs_notation_map": [],
+
+    //由于似乎是“ @返回”或“ @Returns ”没有统一标准，使用此设置为你希望重命名。
+    "jsdocs_return_tag": "@return",
+
+    //添加'[说明] “占位符返回变量？
+    "jsdocs_return_description": true,
+
+    //添加'[说明] “占位符param标记？
+    "jsdocs_param_description": true,
+
+    //添加在param标签参数的名称？
+    "jsdocs_param_name": true,
+
+    //是否应当有空白行的描述线之间增加，和不同类型的标记之间。
+    //可能的值为true ，false或“ after_description ” 。
+    //如果为真，则输出可能是这样的：
+    // / **
+    // * [说明]
+    // *
+    // * @参数{ string}里富
+    // * @参数{ }号吧
+    // *
+    // *返回{ [类型] }
+    // * /
+
+    //如果“ after_description ”构成，一个空行仅描述和第一标签之间增加，但不
+    //不同的标签部分，所以输出的，在这种情况下，可能是这样的：
+
+    // / **
+    // * [说明]
+    // *
+    // * @参数{ string}里富
+    // * @参数{ }号吧
+    // *返回{ [类型] }
+    // * /
+    "jsdocs_spacer_between_sections": false,
+
+    //是否每一部分应缩进到同一水平，或单独缩进各一台。
+    // （如果为true ，则@param节将每个“ @参数”后，立即失去了额外的空间） 。
+    "jsdocs_per_section_indent": false,
+
+    // COLS之间的最小间隔（默认为1） 。例如，值
+    // 2可能是这样的：
+
+    // / **
+    // * DUIS SED arcu非得力士eleifend ullamcorper QUIS非ERAT 。 Curabitur
+    // *
+    // * @参数{ string}里富Lorem存有悲坐阿梅德。
+    // * @参数{ }数条Nullam燕雀feugiat的Pretium 。 Quisque
+    // *
+    // *返回{ [类型] }描述
+    // * /
+    "jsdocs_min_spaces_between_columns": 1,
+
+    //指示是否@method标记应被自动添加
+    "jsdocs_autoadd_method_tag": false,
+
+    //如果设置为true ， DocBlockr不会解析任何代码，不提供任何默认模板。所有其他功能恢复正常。
+    "jsdocs_simple_mode": false,
+
+    //如果设置为true ，原语，如“数字”和“字符串”将被记录为“数字”和“字符串” 。
+    "jsdocs_lower_case_primitives": false,
+
+    //如果设置为true ，原语，如“布尔”和“整数”将被缩短为“布尔”和“ INT” 。
+    "jsdocs_short_primitives": false,
+
+    //此属性影响加入到` var`声明在使用Javascript / CoffeeScript中的默认标签。如果` FALSE`中，
+    //使用默认值（ “ VAR” ） ，否则可以设置为任意字符串，如： “财产”
+    "jsdocs_override_js_var": false,
+
+    //如果设置为true ，一个额外的换行符是一个文档块把它从代码中分离结束后添加。
+    "jsdocs_newline_after_block": false,
+
+    "jsdocs_development_mode": false,
+
+    "jsdocs_notation_map" : [
+        {
+        "prefix": "1231231",
+        // "tags": ["@author limao {{datetime}}"]
+        }
+    ],
+
+}

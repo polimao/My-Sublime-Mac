@@ -1,0 +1,61 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"close_windows_when_empty": true,
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"copy_with_empty_selection": true,
+	"drag_text": true,
+	"draw_indent_guides": true,
+	"draw_minimap_border": true,
+	"draw_white_space": "auto",
+	"enable_tab_scrolling": true,
+	"findreplace_small": true,
+	"flatland_sidebar_tree_small": true,
+	"flatland_sidebar_tree_xsmall": true,
+	"font_face": "Inconsolata-dz",
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"match_brackets_content": true,
+	"match_selection": true,
+	"match_tags": true,
+	"material_theme_accent_lime": true,
+	"material_theme_bold_tab": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": false,
+	"scroll_speed": 5.0,
+	"show_full_path": false,
+	"sidebar_row_padding_small": true,
+	"sidebar_size_12": true,
+	"sidebar_small": true,
+	"tabs_small": true,
+	"theme": "Afterglow-green.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_wrap": true
+}
