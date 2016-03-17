@@ -490,6 +490,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CoffeeScript String Interpolated</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.coffee</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e69f66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
@@ -542,7 +553,7 @@
 			<key>name</key>
 			<string>diff.deleted</string>
 			<key>scope</key>
-			<string>Markdown.deleted</string>
+			<string>markup.deleted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -553,7 +564,7 @@
 			<key>name</key>
 			<string>diff.inserted</string>
 			<key>scope</key>
-			<string>Markdown.inserted</string>
+			<string>markup.inserted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -564,7 +575,7 @@
 			<key>name</key>
 			<string>diff.changed</string>
 			<key>scope</key>
-			<string>Markdown.changed</string>
+			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -972,6 +983,16 @@
 		</dict>
 	<dict>
             <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#af5c65</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -989,16 +1010,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#af5c65</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

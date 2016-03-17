@@ -7,7 +7,7 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
 	"color_inactive_tabs": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
 	"copy_with_empty_selection": true,
 	"drag_text": true,
 	"draw_indent_guides": true,
@@ -25,6 +25,7 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"indent_guide_options":
